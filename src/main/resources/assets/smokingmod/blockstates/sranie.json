@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "smokingmod:block/sranie"
+      "model": "smokingmod:block/test"
     }
   }
 }

@@ -1,4 +1,4 @@
-package panpole.smokingmod.common.items;
+package jswin.smokingmod.common.items;
 
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.world.InteractionHand;

@@ -1,4 +1,4 @@
-package panpole.smokingmod;
+package jswin.smokingmod;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -25,8 +25,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
-import panpole.smokingmod.core.ModBlocks;
-import panpole.smokingmod.core.ModItems;
+import jswin.smokingmod.core.ModBlocks;
+import jswin.smokingmod.core.ModItems;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(SmokingMod.MODID)

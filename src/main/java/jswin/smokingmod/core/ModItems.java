@@ -1,4 +1,4 @@
-package panpole.smokingmod.core;
+package jswin.smokingmod.core;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -7,10 +7,10 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import panpole.smokingmod.SmokingMod;
-import panpole.smokingmod.common.items.Cigar;
-import panpole.smokingmod.common.items.Cigarette;
-import panpole.smokingmod.common.items.Vape;
+import jswin.smokingmod.SmokingMod;
+import jswin.smokingmod.common.items.Cigar;
+import jswin.smokingmod.common.items.Cigarette;
+import jswin.smokingmod.common.items.Vape;
 
 public class ModItems
 {
@@ -31,5 +31,5 @@ public class ModItems
     public static final RegistryObject<Item> CIGARETTE = ITEMS.register("cigarette", () -> new Cigarette(new Item.Properties().tab(TAB).durability(10)));
 
     //BLOCKS
-    public static final RegistryObject<Item> SRANIE = ITEMS.register("sranie", () -> new BlockItem(ModBlocks.SRANIE.get(), new Item.Properties().tab(TAB)));
+    public static final RegistryObject<Item> TEST = ITEMS.register("test", () -> new BlockItem(ModBlocks.TEST.get(), new Item.Properties().tab(TAB)));
 }

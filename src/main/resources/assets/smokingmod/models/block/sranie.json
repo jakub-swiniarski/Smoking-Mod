@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "smokingmod:block/sranie"
+    "all": "smokingmod:block/test"
   }
 }
